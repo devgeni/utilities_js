@@ -6,7 +6,7 @@ function formatNumber(num) {
 // round number to any precision
 function roundIt(number, precision) {
     var factor = Math.pow(10, 0|precision);
-	var tempNumber = number * factor;
-	var roundedTempNumber = Math.round(tempNumber);
-	return roundedTempNumber / factor;
+    var tempNumber = number * factor;
+    var roundedTempNumber = Math.round(tempNumber);
+    return roundedTempNumber / factor;
 }
